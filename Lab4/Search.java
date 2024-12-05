@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Search {
 
+    //Test comment
     public static void searchPattern(String pattern, String file) {
         try (Scanner sc = new Scanner(new File(file))) {    
             while (sc.hasNextLine()) {
